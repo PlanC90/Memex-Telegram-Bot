@@ -1,0 +1,85 @@
+/save/users.json:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Bu hata hakkında daha fazla bilgi edininAI
+chrome-extension://invalid/:1 
+        
+        
+       Failed to load resource: net::ERR_FAILEDBu hata hakkında daha fazla bilgi edininAI
+/save/withdrawals.json:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Bu hata hakkında daha fazla bilgi edininAI
+utils.js:28 Error saving withdrawals.json: Error: HTTP error! status: 500
+    at saveToFile (utils.js:25:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+saveToFile @ utils.js:28Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:44 Error saving to file: Error: HTTP error! status: 500
+    at saveToFile (utils.js:25:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+handleWithdrawal @ withdrawals.js:44Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:50 Please enter a valid Omnixep wallet address: Error: There was an error saving the withdrawal data. Please try again.
+    at handleWithdrawal (withdrawals.js:45:19)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+handleWithdrawal @ withdrawals.js:50Bu hata hakkında daha fazla bilgi edininAI
+script.js:221 Error processing withdrawal: Error: Please enter a valid Omnixep wallet address. If you don't have one, you can obtain it by clicking the 'Download Wallet' link.
+    at handleWithdrawal (withdrawals.js:52:15)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+handleWithdraw @ script.js:221Bu hata hakkında daha fazla bilgi edininAI
+/save/withdrawals.json:1 
+        
+        
+       Failed to load resource: the server responded with a status of 500 (Internal Server Error)Bu hata hakkında daha fazla bilgi edininAI
+utils.js:28 Error saving withdrawals.json: Error: HTTP error! status: 500
+    at saveToFile (utils.js:25:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+saveToFile @ utils.js:28Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:44 Error saving to file: Error: HTTP error! status: 500
+    at saveToFile (utils.js:25:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+handleWithdrawal @ withdrawals.js:44Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:50 Please enter a valid Omnixep wallet address: Error: There was an error saving the withdrawal data. Please try again.
+    at handleWithdrawal (withdrawals.js:45:19)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+handleWithdrawal @ withdrawals.js:50Bu hata hakkında daha fazla bilgi edininAI
+script.js:221 Error processing withdrawal: Error: Please enter a valid Omnixep wallet address. If you don't have one, you can obtain it by clicking the 'Download Wallet' link.
+    at handleWithdrawal (withdrawals.js:52:15)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+handleWithdraw @ script.js:221Bu hata hakkında daha fazla bilgi edininAI
+utils.js:15 
+        
+        
+       POST https://d8332a54-e363-42d2-bc5b-5668cf450dc4-00-1ncd9iac5ua1c.pike.repl.co/save/withdrawals.json 500 (Internal Server Error)
+saveToFile @ utils.js:15
+handleWithdrawal @ withdrawals.js:41
+await in handleWithdrawal
+handleWithdraw @ script.js:214Bu hata hakkında daha fazla bilgi edininAI
+utils.js:28 Error saving withdrawals.json: Error: HTTP error! status: 500
+    at saveToFile (utils.js:25:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+saveToFile @ utils.js:28
+await in saveToFile
+handleWithdrawal @ withdrawals.js:41
+await in handleWithdrawal
+handleWithdraw @ script.js:214Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:44 Error saving to file: Error: HTTP error! status: 500
+    at saveToFile (utils.js:25:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+handleWithdrawal @ withdrawals.js:44
+await in handleWithdrawal
+handleWithdraw @ script.js:214Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:50 Please enter a valid Omnixep wallet address: Error: There was an error saving the withdrawal data. Please try again.
+    at handleWithdrawal (withdrawals.js:45:19)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+handleWithdrawal @ withdrawals.js:50
+await in handleWithdrawal
+handleWithdraw @ script.js:214Bu hata hakkında daha fazla bilgi edininAI
+script.js:221 Error processing withdrawal: Error: Please enter a valid Omnixep wallet address. If you don't have one, you can obtain it by clicking the 'Download Wallet' link.
+    at handleWithdrawal (withdrawals.js:52:15)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)

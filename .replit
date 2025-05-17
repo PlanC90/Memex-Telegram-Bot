@@ -1,0 +1,13 @@
+run = "node src/server.js"
+modules = ["nodejs-20:v8-20230920-bd784b9"]
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = "node src/server.js"
+deploymentTarget = "gce"
+
+[[ports]]
+localPort = 3000
+externalPort = 80

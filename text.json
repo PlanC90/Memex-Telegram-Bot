@@ -1,0 +1,9 @@
+{
+  "disclaimer": "Complete tasks to earn MEMEX tokens",
+  "messages": {
+    "taskComplete": "Task completed successfully!",
+    "taskError": "Error completing task",
+    "withdrawalSuccess": "Withdrawal processed successfully",
+    "withdrawalError": "Error processing withdrawal"
+  }
+}

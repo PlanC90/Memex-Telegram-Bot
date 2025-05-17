@@ -1,0 +1,120 @@
+e
+Deployment
+Source
+Log
+2025-01-01 02:25:29.49
+135dc09a
+User
+Error sending bot message: TelegramError: 400: Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 28
+2025-01-01 02:25:29.49
+135dc09a
+User
+at Telegram.callApi (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/client.js:315:19)
+2025-01-01 02:25:29.49
+135dc09a
+User
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-01 02:25:29.49
+135dc09a
+User
+at async /home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/server.js:127:9
+2025-01-01 02:25:29.49
+135dc09a
+User
+at async execute (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/composer.js:518:17)
+2025-01-01 02:25:29.49
+135dc09a
+User
+at async /home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/composer.js:519:21
+2025-01-01 02:25:29.49
+135dc09a
+User
+at async execute (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/composer.js:518:17)
+2025-01-01 02:25:29.49
+135dc09a
+User
+at async /home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/p-timeout/index.js:50:13 {
+2025-01-01 02:25:29.49
+135dc09a
+User
+response: {
+2025-01-01 02:25:29.49
+135dc09a
+User
+ok: false,
+2025-01-01 02:25:29.49
+135dc09a
+User
+error_code: 400,
+2025-01-01 02:25:29.49
+135dc09a
+User
+description: "Bad Request: can't parse entities: Can't find end of the entity starting at byte offset 28"
+2025-01-01 02:25:29.49
+135dc09a
+User
+},
+2025-01-01 02:25:29.49
+135dc09a
+User
+on: {
+2025-01-01 02:25:29.49
+135dc09a
+User
+method: 'sendPhoto',
+2025-01-01 02:25:29.49
+135dc09a
+User
+payload: {
+2025-01-01 02:25:29.49
+135dc09a
+User
+chat_id: 5942186255,
+2025-01-01 02:25:29.49
+135dc09a
+User
+photo: 'https://cdn.glitch.global/41b9d177-2df3-49bd-8ecc-057b6d9aa045/1.jpg',
+2025-01-01 02:25:29.49
+135dc09a
+User
+message_thread_id: undefined,
+2025-01-01 02:25:29.49
+135dc09a
+User
+caption: 'Welcome to MEMEX Airdrop, @S_0065! 🎮\n' +
+2025-01-01 02:25:29.49
+135dc09a
+User
+'\n' +
+2025-01-01 02:25:29.49
+135dc09a
+User
+'🌟 **Join the airdrop and earn your first rewards!**\n' +
+2025-01-01 02:25:29.49
+135dc09a
+User
+'✅ **Complete simple tasks and withdraw your earnings directly to your wallet!**\n' +
+2025-01-01 02:25:29.49
+135dc09a
+User
+'🚀 Powered by **Electra Protocol**, ensuring the lowest fees, fastest transactions, and ultimate security!',
+2025-01-01 02:25:29.49
+135dc09a
+User
+parse_mode: 'Markdown',
+2025-01-01 02:25:29.49
+135dc09a
+User
+reply_markup: [Object]
+2025-01-01 02:25:29.49
+135dc09a
+User
+}
+2025-01-01 02:25:29.49
+135dc09a
+User
+}
+2025-01-01 02:25:29.49
+135dc09a
+User
+}

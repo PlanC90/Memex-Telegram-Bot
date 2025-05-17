@@ -1,0 +1,116 @@
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at readStream (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/raw-body/index.js:163:17)
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at getRawBody (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/raw-body/index.js:116:12)
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at read (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/body-parser/lib/read.js:79:3)
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at jsonParser (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/body-parser/lib/types/json.js:138:5)
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at Layer.handle [as handle_request] (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/express/lib/router/layer.js:95:5)
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at trim_prefix (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/express/lib/router/index.js:328:13)
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at /home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/express/lib/router/index.js:286:9
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at Function.process_params (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/express/lib/router/index.js:346:12)
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at next (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/express/lib/router/index.js:280:10)
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+at serveStatic (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/serve-static/index.js:75:16) {
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+expected: 102530,
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+length: 102530,
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+limit: 102400,
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+type: 'entity.too.large'
+2024-12-26 00:10:24.55
+ff0e7df4
+User
+}
+2024-12-26 00:23:54.89
+ff0e7df4
+User
+Failed to start bot: TelegramError: 401: Unauthorized
+2024-12-26 00:23:54.89
+ff0e7df4
+User
+at Telegram.callApi (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/telegraf/lib/core/network/client.js:315:19)
+2024-12-26 00:23:54.89
+ff0e7df4
+User
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2024-12-26 00:23:54.89
+ff0e7df4
+User
+at async Telegraf.launch (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/telegraf/lib/telegraf.js:188:78) {
+2024-12-26 00:23:54.89
+ff0e7df4
+User
+response: { ok: false, error_code: 401, description: 'Unauthorized' },
+2024-12-26 00:23:54.89
+ff0e7df4
+User
+on: { method: 'getMe', payload: {} }
+2024-12-26 00:23:54.89
+ff0e7df4
+User
+}
+2024-12-26 00:24:01.76
+ff0e7df4
+User
+Failed to start bot: TelegramError: 401: Unauthorized
+2024-12-26 00:24:01.76
+ff0e7df4
+User
+at Telegram.callApi (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/telegraf/lib/core/network/client.js:315:19)
+2024-12-26 00:24:01.76
+ff0e7df4
+User
+at processTicksAndRejections (internal/process/task_queues.js:95:5)
+2024-12-26 00:24:01.76
+ff0e7df4
+User
+at async Telegraf.launch (/home/runner/7bd0d1ec-b51e-46b1-bb5d-db7d6132421f/node_modules/telegraf/lib/telegraf.js:188:78) {
+2024-12-26 00:24:01.76
+ff0e7df4
+User
+response: { ok: false, error_code: 401, description: 'Unauthorized' },
+2024-12-26 00:24:01.76
+ff0e7df4
+User
+on: { method: 'getMe', payload: {} }
+2024-12-26 00:24:01.76
+ff0e7df4
+User
+}

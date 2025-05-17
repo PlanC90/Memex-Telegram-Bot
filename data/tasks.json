@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "type": "telegram",
+        "join": "Join PlanC Telegram Group", 
+        "kazan": "50000",
+        "mmx": "https://t.me/PlancSpace",
+        "maxRewards": 1
+    },
+    {
+        "id": 2,
+        "type": "telegram",
+        "join": "Join ElectraProtocol Telegram Group",
+        "kazan": "50000",
+        "mmx": "https://t.me/ElectraProtocol",
+        "maxRewards": 1
+    },
+    {
+        "id": 3,
+        "type": "telegram", 
+        "join": "Join ElectraProtocol Turkish Telegram Group",
+        "kazan": "50000",
+        "mmx": "https://t.me/ElectraProtocol_Turkish",
+        "maxRewards": 1
+    },
+    {
+        "id": 4,
+        "type": "telegram",
+        "join": "Join MemeX😊 Telegram Channel",
+        "kazan": "50000", 
+        "mmx": "https://t.me/memexairdropchannel",
+        "maxRewards": 1
+    },
+    {
+        "id": 5,
+        "type": "Exchange",
+        "join": "KCEX Exchange Register",
+        "kazan": "200000",
+        "mmx": "https://www.kcex.io/?inviteCode=T13UUV",
+        "maxRewards": 1
+    },
+    {
+        "id": 6,
+        "type": "follow memex",
+        "join": "Follow MemeX😊",
+        "kazan": "10000",
+        "mmx": "https://x.com/memexairdrop",
+        "description": "Follow MemeX😊!",
+        "maxRewards": 1
+    },
+    {
+        "id": 7,
+        "type": "tweet",
+        "join": "Share on Twitter",
+        "kazan": "10000",
+        "mmx": "",
+        "tweetText": "Join the MEMEX😊 airdrop and earn free memex tokens! The crypto token for everyone, not just the wealthy! 🚀\n\nJoin now: {referralLink}",
+        "maxRewards": 100
+    },
+    {
+        "id": 8,
+        "type": "referral",
+        "join": "Share & Earn - Unlimited Rewards",
+        "kazan": "10000",
+        "mmx": "",
+        "description": "Share your referral link and earn 10,000 MEMEX for each new user!",
+        "maxRewards": 100
+    },
+    {
+        "id": 9,
+        "type": "follow memex",
+        "join": "Follow CM Titans",
+        "kazan": "10000",
+        "mmx": "http://x.com/C_m_titans1",
+        "description": "Follow CM Titans!",
+        "maxRewards": 1
+    },
+    {
+        "id": 10,
+        "type": "telegram",
+        "join": "Join CM Titans Telegram Group",
+        "kazan": "10000",
+        "mmx": "https://t.me/Crypto_Marketing_Titans",
+        "maxRewards": 1
+    }
+]

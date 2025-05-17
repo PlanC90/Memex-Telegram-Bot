@@ -1,0 +1,84 @@
+2025-01-01 19:42:22.47
+889fa73b
+User
+Failed to start bot: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-01-01 19:42:22.47
+889fa73b
+User
+at Telegram.callApi (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/client.js:315:19)
+2025-01-01 19:42:22.47
+889fa73b
+User
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-01 19:42:22.47
+889fa73b
+User
+at async [Symbol.asyncIterator] (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/polling.js:30:33)
+2025-01-01 19:42:22.47
+889fa73b
+User
+at async Polling.loop (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/polling.js:73:30)
+2025-01-01 19:42:22.47
+889fa73b
+User
+at async Telegraf.launch (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/telegraf.js:194:13)
+2025-01-01 19:42:22.47
+889fa73b
+User
+at async Timeout.startBot [as _onTimeout] (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/server.js:184:13) {
+2025-01-01 19:42:22.47
+889fa73b
+User
+response: {
+2025-01-01 19:42:22.47
+889fa73b
+User
+ok: false,
+2025-01-01 19:42:22.47
+889fa73b
+User
+error_code: 409,
+2025-01-01 19:42:22.47
+889fa73b
+User
+description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+2025-01-01 19:42:22.47
+889fa73b
+User
+},
+2025-01-01 19:42:22.47
+889fa73b
+User
+on: {
+2025-01-01 19:42:22.47
+889fa73b
+User
+method: 'getUpdates',
+2025-01-01 19:42:22.47
+889fa73b
+User
+payload: { timeout: 50, offset: 0, allowed_updates: [] }
+2025-01-01 19:42:22.47
+889fa73b
+User
+}
+2025-01-01 19:42:22.47
+889fa73b
+User
+}
+2025-01-01 19:42:22.47
+889fa73b
+User
+Conflict detected, waiting 15s before retry...
+2025-01-01 19:42:37.60
+889fa73b
+User
+Starting bot...
+2025-01-01 19:42:53.38
+889fa73b
+User
+Bot launch error: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-01-01 19:42:53.38
+889fa73b
+User
+at Telegram.callApi (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/client.js:315:19)

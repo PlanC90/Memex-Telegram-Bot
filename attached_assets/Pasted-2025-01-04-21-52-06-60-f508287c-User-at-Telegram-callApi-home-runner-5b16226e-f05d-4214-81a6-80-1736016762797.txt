@@ -1,0 +1,115 @@
+2025-01-04 21:52:06.60
+f508287c
+User
+at Telegram.callApi (/home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/node_modules/telegraf/lib/core/network/client.js:315:19)
+2025-01-04 21:52:06.60
+f508287c
+User
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async [Symbol.asyncIterator] (/home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/node_modules/telegraf/lib/core/network/polling.js:30:33)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async Polling.loop (/home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/node_modules/telegraf/lib/core/network/polling.js:73:30)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async Telegraf.launch (/home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/node_modules/telegraf/lib/telegraf.js:194:13)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async initBot (file:///home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/src/server.js:109:5)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async Server. (file:///home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/src/server.js:122:5) {
+2025-01-04 21:52:06.60
+f508287c
+User
+response: {
+2025-01-04 21:52:06.60
+f508287c
+User
+ok: false,
+2025-01-04 21:52:06.60
+f508287c
+User
+error_code: 409,
+2025-01-04 21:52:06.60
+f508287c
+User
+description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+2025-01-04 21:52:06.60
+f508287c
+User
+},
+2025-01-04 21:52:06.60
+f508287c
+User
+on: {
+2025-01-04 21:52:06.60
+f508287c
+User
+method: 'getUpdates',
+2025-01-04 21:52:06.60
+f508287c
+User
+payload: { timeout: 50, offset: 178851302, allowed_updates: [] }
+2025-01-04 21:52:06.60
+f508287c
+User
+}
+2025-01-04 21:52:06.60
+f508287c
+User
+}
+2025-01-04 21:52:06.60
+f508287c
+User
+node:internal/process/promises:391
+2025-01-04 21:52:06.60
+f508287c
+User
+triggerUncaughtException(err, true /* fromPromise */);
+2025-01-04 21:52:06.60
+f508287c
+User
+^
+2025-01-04 21:52:06.60
+f508287c
+User
+2025-01-04 21:52:06.60
+f508287c
+User
+TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-01-04 21:52:06.60
+f508287c
+User
+at Telegram.callApi (/home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/node_modules/telegraf/lib/core/network/client.js:315:19)
+2025-01-04 21:52:06.60
+f508287c
+User
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async [Symbol.asyncIterator] (/home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/node_modules/telegraf/lib/core/network/polling.js:30:33)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async Polling.loop (/home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/node_modules/telegraf/lib/core/network/polling.js:73:30)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async Telegraf.launch (/home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/node_modules/telegraf/lib/telegraf.js:194:13)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async initBot (file:///home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/src/server.js:109:5)
+2025-01-04 21:52:06.60
+f508287c
+User
+at async Server. (file:///home/runner/5b16226e-f05d-4214-81a6-80a56e912f43/src/server.js:122:5) {

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Token Gönderim İşlemleri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Token Gönderim İşlemleri</h1>
+        
+        <!-- Gönderici Adresi ve Property ID -->
+        <div id="ayarlar">
+            <p><strong>Gönderen Adres:</strong> <span id="gonderenAdres"></span></p>
+            <p><strong>Property ID:</strong> <span id="propertyId"></span></p>
+        </div>
+
+        <div class="buttons">
+            <button id="gonderilenler">Gönderilenleri Göster</button>
+            <button id="gonderilmeyenler">Gönderilmeyenleri Göster</button>
+            <button id="tumSec">Tümünü Seç</button>
+        </div>
+        
+        <table id="gonderimTablosu">
+            <thead>
+                <tr>
+                    <th>Seç</th>
+                    <th>Kullanıcı Adı</th>
+                    <th>Cüzdan Adresi</th>
+                    <th>Miktar</th>
+                    <th>Durum</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody id="tabloIcerigi">
+                <!-- Cüzdanlar buraya yüklenecek -->
+            </tbody>
+        </table>
+
+        <div id="loading">
+            <p>İşlem devam ediyor...</p>
+            <progress id="progressBar" value="0" max="100"></progress>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

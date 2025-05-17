@@ -1,0 +1,47 @@
+script.js:229 
+        
+        
+       POST https://memex-v10.replit.app/save/users.json 404 (Not Found)
+saveToFile @ script.js:229
+loadUserData @ script.js:49
+await in loadUserData
+initUser @ script.js:74
+(anonim) @ script.js:243Bu hata hakkında daha fazla bilgi edininAI
+chrome-extension://invalid/:1 
+        
+        
+       GET chrome-extension://invalid/ net::ERR_FAILED
+Image
+(anonim) @ content.js:1
+setTimeout
+window.onload @ content.js:1
+load
+(anonim) @ content.js:1
+(anonim) @ content.js:1Bu hata hakkında daha fazla bilgi edininAI
+utils.js:15 
+        
+        
+       POST https://memex-v10.replit.app/save/withdrawals.json 404 (Not Found)
+saveToFile @ utils.js:15
+handleWithdrawal @ withdrawals.js:41
+await in handleWithdrawal
+handleWithdraw @ script.js:214Bu hata hakkında daha fazla bilgi edininAI
+utils.js:31 Error saving withdrawals.json: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+saveToFile @ utils.js:31
+await in saveToFile
+handleWithdrawal @ withdrawals.js:41
+await in handleWithdrawal
+handleWithdraw @ script.js:214Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:44 Error saving to file: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+handleWithdrawal @ withdrawals.js:44
+await in handleWithdrawal
+handleWithdraw @ script.js:214Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:50 Please enter a valid Omnixep wallet address: Error: There was an error saving the withdrawal data. Please try again.
+    at handleWithdrawal (withdrawals.js:45:19)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)
+handleWithdrawal @ withdrawals.js:50
+await in handleWithdrawal
+handleWithdraw @ script.js:214Bu hata hakkında daha fazla bilgi edininAI
+script.js:221 Error processing withdrawal: Error: Please enter a valid Omnixep wallet address. If you don't have one, you can obtain it by clicking the 'Download Wallet' link.
+    at handleWithdrawal (withdrawals.js:52:15)
+    at async HTMLButtonElement.handleWithdraw (script.js:214:9)

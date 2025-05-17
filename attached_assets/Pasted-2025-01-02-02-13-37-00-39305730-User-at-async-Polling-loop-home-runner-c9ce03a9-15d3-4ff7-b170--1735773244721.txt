@@ -1,0 +1,120 @@
+2025-01-02 02:13:37.00
+39305730
+User
+at async Polling.loop (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/polling.js:73:30)
+2025-01-02 02:13:37.00
+39305730
+User
+at async Telegraf.launch (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/telegraf.js:194:13)
+2025-01-02 02:13:37.00
+39305730
+User
+at async Timeout.startBot [as _onTimeout] (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/server.js:200:13) {
+2025-01-02 02:13:37.00
+39305730
+User
+response: {
+2025-01-02 02:13:37.00
+39305730
+User
+ok: false,
+2025-01-02 02:13:37.00
+39305730
+User
+error_code: 409,
+2025-01-02 02:13:37.00
+39305730
+User
+description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+2025-01-02 02:13:37.00
+39305730
+User
+},
+2025-01-02 02:13:37.00
+39305730
+User
+on: {
+2025-01-02 02:13:37.00
+39305730
+User
+method: 'getUpdates',
+2025-01-02 02:13:37.00
+39305730
+User
+payload: { timeout: 50, offset: 0, allowed_updates: [] }
+2025-01-02 02:13:37.00
+39305730
+User
+}
+2025-01-02 02:13:37.00
+39305730
+User
+}
+2025-01-02 02:13:39.00
+39305730
+User
+Failed to start bot: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-01-02 02:13:39.00
+39305730
+User
+at Telegram.callApi (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/client.js:315:19)
+2025-01-02 02:13:39.00
+39305730
+User
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-02 02:13:39.00
+39305730
+User
+at async [Symbol.asyncIterator] (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/polling.js:30:33)
+2025-01-02 02:13:39.00
+39305730
+User
+at async Polling.loop (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/polling.js:73:30)
+2025-01-02 02:13:39.00
+39305730
+User
+at async Telegraf.launch (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/telegraf.js:194:13)
+2025-01-02 02:13:39.00
+39305730
+User
+at async Timeout.startBot [as _onTimeout] (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/server.js:200:13) {
+2025-01-02 02:13:39.00
+39305730
+User
+response: {
+2025-01-02 02:13:39.00
+39305730
+User
+ok: false,
+2025-01-02 02:13:39.00
+39305730
+User
+error_code: 409,
+2025-01-02 02:13:39.00
+39305730
+User
+description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+2025-01-02 02:13:39.00
+39305730
+User
+},
+2025-01-02 02:13:39.00
+39305730
+User
+on: {
+2025-01-02 02:13:39.00
+39305730
+User
+method: 'getUpdates',
+2025-01-02 02:13:39.00
+39305730
+User
+payload: { timeout: 50, offset: 0, allowed_updates: [] }
+2025-01-02 02:13:39.00
+39305730
+User
+}
+2025-01-02 02:13:39.00
+39305730
+User
+}

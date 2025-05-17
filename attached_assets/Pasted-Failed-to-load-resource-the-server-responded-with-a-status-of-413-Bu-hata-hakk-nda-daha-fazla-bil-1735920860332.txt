@@ -1,0 +1,82 @@
+Failed to load resource: the server responded with a status of 413 ()Bu hata hakkında daha fazla bilgi edininAI
+chrome-extension://invalid/:1 
+        
+        
+       Failed to load resource: net::ERR_FAILEDBu hata hakkında daha fazla bilgi edininAI
+/save/withdrawals.json:1 
+        
+        
+       Failed to load resource: the server responded with a status of 404 ()Bu hata hakkında daha fazla bilgi edininAI
+utils.js:26 Error saving withdrawals.json: Error: HTTP error! status: 404
+    at saveToFile (utils.js:23:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+saveToFile @ utils.js:26Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:44 Error saving to file: Error: HTTP error! status: 404
+    at saveToFile (utils.js:23:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+handleWithdrawal @ withdrawals.js:44Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:50 Please enter a valid Omnixep wallet address: Error: There was an error saving the withdrawal data. Please try again.
+    at handleWithdrawal (withdrawals.js:45:19)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+handleWithdrawal @ withdrawals.js:50Bu hata hakkında daha fazla bilgi edininAI
+script.js:229 Error processing withdrawal: Error: Please enter a valid Omnixep wallet address. If you don't have one, you can obtain it by clicking the 'Download Wallet' link.
+    at handleWithdrawal (withdrawals.js:52:15)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+handleWithdraw @ script.js:229Bu hata hakkında daha fazla bilgi edininAI
+/save/withdrawals.json:1 
+        
+        
+       Failed to load resource: the server responded with a status of 404 ()Bu hata hakkında daha fazla bilgi edininAI
+utils.js:26 Error saving withdrawals.json: Error: HTTP error! status: 404
+    at saveToFile (utils.js:23:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+saveToFile @ utils.js:26Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:44 Error saving to file: Error: HTTP error! status: 404
+    at saveToFile (utils.js:23:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+handleWithdrawal @ withdrawals.js:44Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:50 Please enter a valid Omnixep wallet address: Error: There was an error saving the withdrawal data. Please try again.
+    at handleWithdrawal (withdrawals.js:45:19)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+handleWithdrawal @ withdrawals.js:50Bu hata hakkında daha fazla bilgi edininAI
+script.js:229 Error processing withdrawal: Error: Please enter a valid Omnixep wallet address. If you don't have one, you can obtain it by clicking the 'Download Wallet' link.
+    at handleWithdrawal (withdrawals.js:52:15)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+handleWithdraw @ script.js:229Bu hata hakkında daha fazla bilgi edininAI
+utils.js:16 
+        
+        
+       POST https://memex-v10.replit.app/save/withdrawals.json 404 (Not Found)
+saveToFile @ utils.js:16
+handleWithdrawal @ withdrawals.js:41
+await in handleWithdrawal
+handleWithdraw @ script.js:222Bu hata hakkında daha fazla bilgi edininAI
+utils.js:26 Error saving withdrawals.json: Error: HTTP error! status: 404
+    at saveToFile (utils.js:23:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+saveToFile @ utils.js:26
+await in saveToFile
+handleWithdrawal @ withdrawals.js:41
+await in handleWithdrawal
+handleWithdraw @ script.js:222Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:44 Error saving to file: Error: HTTP error! status: 404
+    at saveToFile (utils.js:23:19)
+    at async handleWithdrawal (withdrawals.js:41:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+handleWithdrawal @ withdrawals.js:44
+await in handleWithdrawal
+handleWithdraw @ script.js:222Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:50 Please enter a valid Omnixep wallet address: Error: There was an error saving the withdrawal data. Please try again.
+    at handleWithdrawal (withdrawals.js:45:19)
+    at async HTMLButtonElement.handleWithdraw (script.js:222:9)
+handleWithdrawal @ withdrawals.js:50
+await in handleWithdrawal
+handleWithdraw @ script.js:222Bu hata hakkında daha fazla bilgi edininAI
+script.js:229 Error processing withdrawal: Error: Please enter a valid Omnixep wallet address. If you don't have one, you can obtain it by clicking the 'Download Wallet' link.
+    at handleWithdrawal (withdrawals.js:52:15)
+    at async HTMLBut

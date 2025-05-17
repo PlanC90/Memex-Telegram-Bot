@@ -1,0 +1,117 @@
+2025-01-01 14:22:05.67
+f0f41d09
+User
+2025-01-01 14:22:05.67
+f0f41d09
+User
+Node.js v20.18.1
+2025-01-01 14:24:48.59
+f0f41d09
+User
+npm notice
+2025-01-01 14:24:48.59
+f0f41d09
+User
+npm notice New major version of npm available! 10.8.2 -> 11.0.0
+2025-01-01 14:24:48.59
+f0f41d09
+User
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.0.0
+2025-01-01 14:24:48.59
+f0f41d09
+User
+npm notice To update run: npm install -g npm@11.0.0
+2025-01-01 14:24:48.59
+f0f41d09
+User
+npm notice
+2025-01-01 14:24:48.62
+f0f41d09
+System
+command finished with error [sh -c npm run dev]: exit status 143
+2025-01-01 15:01:39.73
+147b4ad1
+User
+/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/client.js:315
+2025-01-01 15:01:39.73
+147b4ad1
+User
+throw new error_1.default(data, { method, payload });
+2025-01-01 15:01:39.73
+147b4ad1
+User
+^
+2025-01-01 15:01:39.73
+147b4ad1
+User
+2025-01-01 15:01:39.73
+147b4ad1
+User
+TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2025-01-01 15:01:39.73
+147b4ad1
+User
+at Telegram.callApi (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/client.js:315:19)
+2025-01-01 15:01:39.73
+147b4ad1
+User
+at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-01-01 15:01:39.73
+147b4ad1
+User
+at async [Symbol.asyncIterator] (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/polling.js:30:33)
+2025-01-01 15:01:39.73
+147b4ad1
+User
+at async Polling.loop (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/core/network/polling.js:73:30)
+2025-01-01 15:01:39.73
+147b4ad1
+User
+at async Telegraf.launch (/home/runner/c9ce03a9-15d3-4ff7-b170-2ce85ecd065d/node_modules/telegraf/lib/telegraf.js:194:13) {
+2025-01-01 15:01:39.73
+147b4ad1
+User
+response: {
+2025-01-01 15:01:39.73
+147b4ad1
+User
+ok: false,
+2025-01-01 15:01:39.73
+147b4ad1
+User
+error_code: 409,
+2025-01-01 15:01:39.73
+147b4ad1
+User
+description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+2025-01-01 15:01:39.73
+147b4ad1
+User
+},
+2025-01-01 15:01:39.73
+147b4ad1
+User
+on: {
+2025-01-01 15:01:39.73
+147b4ad1
+User
+method: 'getUpdates',
+2025-01-01 15:01:39.73
+147b4ad1
+User
+payload: { timeout: 50, offset: 0, allowed_updates: [] }
+2025-01-01 15:01:39.73
+147b4ad1
+User
+}
+2025-01-01 15:01:39.73
+147b4ad1
+User
+}
+2025-01-01 15:01:39.73
+147b4ad1
+User
+2025-01-01 15:01:39.73
+147b4ad1
+User
+Node.js v20.18.1

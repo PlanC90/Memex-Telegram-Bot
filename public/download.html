@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Data</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="download-container">
+        <h1>Download All Data</h1>
+        <a href="/download-all-json" class="download-btn">Download JSON Files</a>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Verileri İndir</title>
+    <style>
+        .download-btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 20px;
+        }
+        .download-container {
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="download-container">
+        <h1>Tüm Verileri İndir</h1>
+        <button onclick="downloadData()" class="download-btn">JSON Dosyalarını İndir</button>
+    </div>
+    <script>
+        function downloadData() {
+            window.location.href = '/download-all-json';
+        }
+    </script>
+</body>
+</html>

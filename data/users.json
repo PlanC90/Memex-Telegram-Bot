@@ -1,0 +1,19 @@
+[
+  {
+    "username": "guest",
+    "balance": 0,
+    "tasks_completed": [
+      "4",
+      "1", 
+      "2",
+      "3",
+      "5",
+      "6",
+      "9",
+      "10"
+    ],
+    "last_login": "2025-01-01T21:39:35.109Z",
+    "referral_earnings": 11080000,
+    "total_referrals": 1108
+  }
+]

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemeX😊 Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #f5f5f5;
+            margin: 0;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            color: #4CAF50;
+            margin-bottom: 20px;
+        }
+        .dashboard .filters {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .filters button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .filters button:hover {
+            background-color: #45a049;
+        }
+        .filters button.active {
+            background-color: grey;
+        }
+        .summary-cards {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .card {
+            background-color: #292929;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+            margin: 5px;
+            color: white;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #333;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        tr:nth-child(even) {
+            background-color: #292929;
+        }
+        tr:hover {
+            background-color: #3a3a3a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MemeX😊 Dashboard</h1>
+        <div class="dashboard">
+            <div class="filters">
+                <button onclick="filterWithdrawals('daily', this)">Günlük</button>
+                <button onclick="filterWithdrawals('weekly', this)">Haftalık</button>
+                <button onclick="filterWithdrawals('monthly', this)">Aylık</button>
+                <button onclick="filterWithdrawals('all', this)">Tümü</button>
+                <button onclick="filterValidWallets(this)">Geçerli Cüzdan</button>
+                <button onclick="downloadData()">Veriyi İndir</button>
+            </div>
+            <div class="summary-cards">
+                <div class="card">
+                    <h3 id="total-withdrawals">0</h3>
+                    <p>Toplam Çekim</p>
+                </div>
+                <div class="card">
+                    <h3 id="total-amount">0</h3>
+                    <p>Toplam Çekilen Miktar</p>
+                </div>
+                <div class="card">
+                    <h3 id="valid-count">0</h3>
+                    <p>Başlayan Çekim Adeti</p>
+                </div>
+                <div class="card">
+                    <h3 id="valid-total-amount">0</h3>
+                    <p>Başlayan Çekim Miktarı</p>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th onclick="sortTable('recipient')">Cüzdan Adresi</th>
+                        <th onclick="sortTable('amount')">Miktar</th>
+                        <th onclick="sortTable('timestamp')">Tarih</th>
+                    </tr>
+                </thead>
+                <tbody id="withdrawal-table-body">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

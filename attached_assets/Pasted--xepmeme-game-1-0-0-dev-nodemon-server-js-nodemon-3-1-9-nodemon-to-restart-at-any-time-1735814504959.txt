@@ -1,0 +1,115 @@
+> xepmeme-game@1.0.0 dev
+> nodemon server.js
+
+[nodemon] 3.1.9
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+Server running on port 3000
+Starting bot...
+Bot launch error: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async [Symbol.asyncIterator] (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/home/runner/MemeX-V10/node_modules/telegraf/lib/telegraf.js:194:13)
+    at async startBot (/home/runner/MemeX-V10/server.js:200:13) {
+  response: {
+    ok: false,
+    error_code: 409,
+    description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+  },
+  on: {
+    method: 'getUpdates',
+    payload: { timeout: 50, offset: 0, allowed_updates: [] }
+  }
+}
+Failed to start bot: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async [Symbol.asyncIterator] (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/home/runner/MemeX-V10/node_modules/telegraf/lib/telegraf.js:194:13)
+    at async startBot (/home/runner/MemeX-V10/server.js:200:13) {
+  response: {
+    ok: false,
+    error_code: 409,
+    description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+  },
+  on: {
+    method: 'getUpdates',
+    payload: { timeout: 50, offset: 0, allowed_updates: [] }
+  }
+}
+Conflict detected, waiting 15s before retry...
+Starting bot...
+Starting bot...
+Bot launch error: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async [Symbol.asyncIterator] (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/home/runner/MemeX-V10/node_modules/telegraf/lib/telegraf.js:194:13)
+    at async Timeout.startBot [as _onTimeout] (/home/runner/MemeX-V10/server.js:200:13) {
+  response: {
+    ok: false,
+    error_code: 409,
+    description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+  },
+  on: {
+    method: 'getUpdates',
+    payload: { timeout: 50, offset: 0, allowed_updates: [] }
+  }
+}
+Failed to start bot: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async [Symbol.asyncIterator] (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/home/runner/MemeX-V10/node_modules/telegraf/lib/telegraf.js:194:13)
+    at async Timeout.startBot [as _onTimeout] (/home/runner/MemeX-V10/server.js:200:13) {
+  response: {
+    ok: false,
+    error_code: 409,
+    description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+  },
+  on: {
+    method: 'getUpdates',
+    payload: { timeout: 50, offset: 0, allowed_updates: [] }
+  }
+}
+Conflict detected, waiting 15s before retry...
+Bot successfully started
+Bot successfully started
+Starting bot...
+Starting bot...
+Bot launch error: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async [Symbol.asyncIterator] (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/home/runner/MemeX-V10/node_modules/telegraf/lib/telegraf.js:194:13)
+    at async Timeout.startBot [as _onTimeout] (/home/runner/MemeX-V10/server.js:200:13) {
+  response: {
+    ok: false,
+    error_code: 409,
+    description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+  },
+  on: {
+    method: 'getUpdates',
+    payload: { timeout: 50, offset: 0, allowed_updates: [] }
+  }
+}
+Bot successfully started
+Bot successfully started
+Failed to start bot: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async [Symbol.asyncIterator] (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/home/runner/MemeX-V10/node_modules/telegraf/lib/telegraf.js:194:13)
+    at async Timeout.startBot [as _onTimeout] (/home/runner/MemeX-V10/server.js:200:13) {
+  response: {
+    ok: false,
+    error_code: 409,

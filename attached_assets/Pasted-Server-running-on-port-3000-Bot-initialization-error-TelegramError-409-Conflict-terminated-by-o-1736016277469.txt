@@ -1,0 +1,43 @@
+Server running on port 3000
+Bot initialization error: TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async [Symbol.asyncIterator] (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/home/runner/MemeX-V10/node_modules/telegraf/lib/telegraf.js:194:13)
+    at async initBot (file:///home/runner/MemeX-V10/src/server.js:129:5)
+    at async Server.<anonymous> (file:///home/runner/MemeX-V10/src/server.js:147:5) {
+  response: {
+    ok: false,
+    error_code: 409,
+    description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+  },
+  on: {
+    method: 'getUpdates',
+    payload: { timeout: 50, offset: 0, allowed_updates: [] }
+  }
+}
+node:internal/process/promises:391
+    triggerUncaughtException(err, true /* fromPromise */);
+    ^
+
+TelegramError: 409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+    at Telegram.callApi (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/client.js:315:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async [Symbol.asyncIterator] (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:30:33)
+    at async Polling.loop (/home/runner/MemeX-V10/node_modules/telegraf/lib/core/network/polling.js:73:30)
+    at async Telegraf.launch (/home/runner/MemeX-V10/node_modules/telegraf/lib/telegraf.js:194:13)
+    at async initBot (file:///home/runner/MemeX-V10/src/server.js:129:5)
+    at async Server.<anonymous> (file:///home/runner/MemeX-V10/src/server.js:147:5) {
+  response: {
+    ok: false,
+    error_code: 409,
+    description: 'Conflict: terminated by other getUpdates request; make sure that only one bot instance is running'
+  },
+  on: {
+    method: 'getUpdates',
+    payload: { timeout: 50, offset: 0, allowed_updates: [] }
+  }
+}
+
+Node.js v20.18.1

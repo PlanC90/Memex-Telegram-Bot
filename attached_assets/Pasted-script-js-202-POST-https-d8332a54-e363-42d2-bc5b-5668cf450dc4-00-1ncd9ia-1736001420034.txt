@@ -1,0 +1,62 @@
+script.js:202 
+        
+        
+       POST https://d8332a54-e363-42d2-bc5b-5668cf450dc4-00-1ncd9iac5ua1c.pike.repl.co/save/users.json 500 (Internal Server Error)
+saveToFile @ script.js:202
+loadUserData @ script.js:49
+await in loadUserData
+initUser @ script.js:74
+(anonim) @ script.js:216Bu hata hakkında daha fazla bilgi edininAI
+chrome-extension://invalid/:1 
+        
+        
+       GET chrome-extension://invalid/ net::ERR_FAILED
+Image
+(anonim) @ content.js:1
+setTimeout
+window.onload @ content.js:1
+load
+(anonim) @ content.js:1
+(anonim) @ content.js:1Bu hata hakkında daha fazla bilgi edininAI
+utils.js:15 
+        
+        
+       POST https://d8332a54-e363-42d2-bc5b-5668cf450dc4-00-1ncd9iac5ua1c.pike.repl.co/save/withdrawals.json 500 (Internal Server Error)
+saveToFile @ utils.js:15
+handleWithdrawal @ withdrawals.js:38
+await in handleWithdrawal
+handleWithdraw @ script.js:187Bu hata hakkında daha fazla bilgi edininAI
+utils.js:32 Error saving withdrawals.json: Error: fs is not defined
+    at saveToFile (utils.js:25:13)
+    at async handleWithdrawal (withdrawals.js:38:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:187:9)
+saveToFile @ utils.js:32
+await in saveToFile
+handleWithdrawal @ withdrawals.js:38
+await in handleWithdrawal
+handleWithdraw @ script.js:187Bu hata hakkında daha fazla bilgi edininAI
+utils.js:35 
+        
+        
+       POST https://d8332a54-e363-42d2-bc5b-5668cf450dc4-00-1ncd9iac5ua1c.pike.repl.co/save/withdrawals.json 500 (Internal Server Error)
+saveToFile @ utils.js:35
+await in saveToFile
+handleWithdrawal @ withdrawals.js:38
+await in handleWithdrawal
+handleWithdraw @ script.js:187Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:41 Error saving to file: Error: fs is not defined
+    at saveToFile (utils.js:25:13)
+    at async handleWithdrawal (withdrawals.js:38:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:187:9)
+handleWithdrawal @ withdrawals.js:41
+await in handleWithdrawal
+handleWithdraw @ script.js:187Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:47 Please enter a valid Omnixep wallet address: Error: There was an error saving the withdrawal data. Please try again.
+    at handleWithdrawal (withdrawals.js:42:19)
+    at async HTMLButtonElement.handleWithdraw (script.js:187:9)
+handleWithdrawal @ withdrawals.js:47
+await in handleWithdrawal
+handleWithdraw @ script.js:187Bu hata hakkında daha fazla bilgi edininAI
+script.js:194 Error processing withdrawal: Error: Please enter a valid Omnixep wallet address. If you don't have one, you can obtain it by clicking the 'Download Wallet' link.
+    at handleWithdrawal (withdrawals.js:49:15)
+    at async HTMLButtonElement.handleWithdraw (script.js:187:9)

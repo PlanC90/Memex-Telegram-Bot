@@ -1,0 +1,64 @@
+textService.js:3 
+        
+        
+       GET https://2a9b2df3-93cd-4eb4-8185-164fd5156686-00-2vc5ptrs3lopz.sisko.replit.dev/public/data/text.json 404 (Not Found)
+loadTexts @ textService.js:3
+loadTasks @ tasks.js:9
+initUser @ script.js:92
+await in initUser
+(anonim) @ script.js:216Bu hata hakkında daha fazla bilgi edininAI
+textService.js:6 Error loading texts: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+loadTexts @ textService.js:6
+await in loadTexts
+loadTasks @ tasks.js:9
+initUser @ script.js:92
+await in initUser
+(anonim) @ script.js:216Bu hata hakkında daha fazla bilgi edininAI
+default-avatar.png:1 
+        
+        
+       GET https://2a9b2df3-93cd-4eb4-8185-164fd5156686-00-2vc5ptrs3lopz.sisko.replit.dev/default-avatar.png 404 (Not Found)Bu hata hakkında daha fazla bilgi edininAI
+chrome-extension://invalid/:1 
+        
+        
+       GET chrome-extension://invalid/ net::ERR_FAILED
+Image
+(anonim) @ content.js:1
+setTimeout
+window.onload @ content.js:1
+load
+(anonim) @ content.js:1
+(anonim) @ content.js:1Bu hata hakkında daha fazla bilgi edininAI
+utils.js:11 
+        
+        
+       POST https://2a9b2df3-93cd-4eb4-8185-164fd5156686-00-2vc5ptrs3lopz.sisko.replit.dev/api/save/withdrawals.json 404 (Not Found)
+saveToFile @ utils.js:11
+handleWithdrawal @ withdrawals.js:38
+await in handleWithdrawal
+handleWithdraw @ script.js:187Bu hata hakkında daha fazla bilgi edininAI
+utils.js:21 Error saving withdrawals.json: Error: HTTP error! status: 404
+    at saveToFile (utils.js:18:19)
+    at async handleWithdrawal (withdrawals.js:38:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:187:9)
+saveToFile @ utils.js:21
+await in saveToFile
+handleWithdrawal @ withdrawals.js:38
+await in handleWithdrawal
+handleWithdraw @ script.js:187Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:41 Error saving to file: Error: HTTP error! status: 404
+    at saveToFile (utils.js:18:19)
+    at async handleWithdrawal (withdrawals.js:38:13)
+    at async HTMLButtonElement.handleWithdraw (script.js:187:9)
+handleWithdrawal @ withdrawals.js:41
+await in handleWithdrawal
+handleWithdraw @ script.js:187Bu hata hakkında daha fazla bilgi edininAI
+withdrawals.js:47 Please enter a valid Omnixep wallet address: Error: There was an error saving the withdrawal data. Please try again.
+    at handleWithdrawal (withdrawals.js:42:19)
+    at async HTMLButtonElement.handleWithdraw (script.js:187:9)
+handleWithdrawal @ withdrawals.js:47
+await in handleWithdrawal
+handleWithdraw @ script.js:187Bu hata hakkında daha fazla bilgi edininAI
+script.js:194 Error processing withdrawal: Error: Please enter a valid Omnixep wallet address. If you don't have one, you can obtain it by clicking the 'Download Wallet' link.
+    at handleWithdrawal (withdrawals.js:49:15)
+    at async HTMLButtonElement.handleWithdraw (script.js:187:9)
